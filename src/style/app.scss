@@ -1,0 +1,14 @@
+.App{
+    min-height: 100vh;
+  }
+  .App::before{
+    content: "";
+    background: url(../assets//bg-wall.gif) no-repeat center center/cover;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    height: 112vh;
+    width: 100%;
+    z-index: -1;
+  
+  }
